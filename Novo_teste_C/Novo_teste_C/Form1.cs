@@ -18,13 +18,18 @@ namespace Novo_teste_C
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        { int x = 2;
+            int y = 3;
+            if (x == y)
             MessageBox.Show("2");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("1");
+            int x = 2;
+            int y = 3;
+            if (x == y)
+                MessageBox.Show("1");
         }
     }
 }
